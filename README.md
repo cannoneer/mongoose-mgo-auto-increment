@@ -4,10 +4,13 @@
 [![Dependencies Status](https://gemnasium.com/codetunnel/mongoose-auto-increment.png)](https://gemnasium.com/codetunnel/mongoose-auto-increment)
 [![NPM version](https://badge.fury.io/js/mongoose-auto-increment.png)](http://badge.fury.io/js/mongoose-auto-increment)
 
-> Mongoose plugin that auto-increments any ID field on your schema every time a document is saved. 
+> Mongoose plugin that auto-increments any ID field on your schema every time a document is saved.
+
 > Based on [mongoose-auto-increment](https://github.com/chevex-archived/mongoose-auto-increment). 
-> Main feature: compatibility with [mgo-ai](https://github.com/night-codes/mgo-ai) pakage.
-> Node.js app with plugin "mongoose-mgo-auto-increment" and golang app with pakage "mgo-ai" can use one database at the same time. 
+
+> Main feature: compatibility with [mgo-ai](https://github.com/night-codes/mgo-ai) package.
+
+> Node.js app with plugin "mongoose-mgo-auto-increment" and golang app with package "mgo-ai" can use one database at the same time. 
 
 ---
 
