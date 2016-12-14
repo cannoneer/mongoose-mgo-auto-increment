@@ -23,7 +23,7 @@ after(function (done) {
 afterEach(function (done) {
   connection.model('User').collection.drop(function () {
     delete connection.models.User;
-    connection.model('IdentityCounter').collection.drop(done);
+    connection.model('AI').collection.drop(done);
   });
 });
 

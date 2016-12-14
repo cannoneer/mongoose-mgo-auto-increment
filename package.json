@@ -1,10 +1,10 @@
 {
-  "name": "mongoose-auto-increment",
+  "name": "mongoose-mgo-auto-increment",
   "version": "5.0.1",
-  "description": "This plugin allows you to auto-increment any field on any mongoose schema that you wish.",
+  "description": "This plugin allows you to auto-increment any field on any mongoose schema that you wish. Compatibility with mgo-ai",
   "repository": {
     "type": "git",
-    "url": "git://github.com/codetunnel/mongoose-auto-increment.git"
+    "url": "git://github.com/cannoneer/mongoose-mgo-auto-increment.git"
   },
   "dependencies": {
     "extend": "^3.0.0"
@@ -31,36 +31,27 @@
     "auto-inc",
     "auto_inc",
     "pureautoinc",
-    "mongoose-pureautoinc"
+    "mongoose-pureautoinc",
+    "mgo-ai"
   ],
-  "author": {
-    "name": "Alex Ford (Chevex)",
-    "email": "alex.ford@codetunnel.com",
-    "url": "http://CodeTunnel.com"
-  },
+  "author": "cannoneer <kolyadenko.aleks@gmail.com> (http://github.com/cannoneer)",
   "contributors": [
-    {
-      "name": "Nassor Paulino da Silva (rossan)",
-      "email": "nassor@gmail.com"
-    },
-    {
-      "name": "Misha Koryak (mkoryak)",
-      "email": "mkoryak@gmail.com",
-      "url": "http://ExhibitionNest.com"
-    },
-    {
-      "name": "Christopher Hiller (boneskull)",
-      "url": "http://boneskull.github.io/"
-    },
-    {
-      "name": "tomaskavka",
-      "url": "https://github.com/tomaskavka"
-    }
+    "Alex Ford <alex.ford@codetunnel.com> (Chevex)",
+    "Nassor Paulino da Silva <nassor@gmail.com> (rossan)",
+    "Misha Koryak <mkoryak@gmail.com> (mkoryak)",
+    "Christopher Hiller (boneskull)",
+    "tomaskavka (https://github.com/tomaskavka)"
   ],
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
   },
   "bugs": {
     "url": "https://github.com/codetunnel/mongoose-auto-increment/issues"
-  }
+  },
+  "homepage": "https://github.com/cannoneer/mongoose-mgo-auto-increment#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }
