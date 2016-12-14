@@ -1,10 +1,13 @@
-# mongoose-auto-increment
+# mongoose-mgo-auto-increment
 
 [![Build Status](https://travis-ci.org/codetunnel/mongoose-auto-increment.png?branch=master)](https://travis-ci.org/codetunnel/mongoose-auto-increment)
 [![Dependencies Status](https://gemnasium.com/codetunnel/mongoose-auto-increment.png)](https://gemnasium.com/codetunnel/mongoose-auto-increment)
 [![NPM version](https://badge.fury.io/js/mongoose-auto-increment.png)](http://badge.fury.io/js/mongoose-auto-increment)
 
-> Mongoose plugin that auto-increments any ID field on your schema every time a document is saved.
+> Mongoose plugin that auto-increments any ID field on your schema every time a document is saved. 
+> Based on [mongoose-auto-increment](https://github.com/chevex-archived/mongoose-auto-increment). 
+> Main feature: compatibility with [mgo-ai](https://github.com/night-codes/mgo-ai) pakage.
+> Node.js app with plugin "mongoose-mgo-auto-increment" and golang app with pakage "mgo-ai" can use one database at the same time. 
 
 ---
 
@@ -22,7 +25,7 @@ mongoose connection and pass `autoIncrement.plugin` to the `plugin()` function o
 ````js
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema,
-    autoIncrement = require('mongoose-auto-increment');
+    autoIncrement = require('mongoose-mgo-auto-increment');
 
 var connection = mongoose.createConnection("mongodb://localhost/myDatabase");
 
